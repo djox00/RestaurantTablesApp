@@ -1,0 +1,27 @@
+.buttons{
+  button{
+    border: none;
+    &:focus{
+      outline:0px !important;
+      -webkit-appearance:none;
+      box-shadow: none !important;
+    }
+  }
+ & > button:first-child{
+   background-color: rgb(219, 20, 20) !important;
+   width: 200px;
+   height: 60px;
+   margin-bottom: 20px;
+ }
+ & > button:nth-child(3){
+  background-color: rgb(14, 189, 14) !important;
+  width: 200px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+button:last-child{
+  background-color: rgb(26, 0, 143) !important;
+  width: 200px;
+  height: 60px;
+}
+}

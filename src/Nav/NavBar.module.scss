@@ -1,0 +1,70 @@
+.navbar{
+    width: 100%;
+    min-height: 200px;
+    margin: auto !important;
+    
+    
+.logo-container{
+height: 200px;
+background-color: rgb(238, 238, 238);
+border-right: solid 1px black;
+overflow: hidden;
+text-align: center;
+
+
+
+& img{
+    margin: auto !important;
+    width: 200px;
+    height: auto;
+    object-fit:cover;
+
+    
+}
+}
+
+.orders-status-container{
+    position: relative;
+    height: 200px;
+    background-color: rgb(238, 238, 238);
+
+    .orderStatus{ 
+        text-align: left;  
+      width: 100%; 
+      height: 20px;
+      top: 70px;
+       margin-top: -30px;
+      position: relative;
+p{
+    display: inline;
+    margin-left: 10%;
+    font-weight: 500;
+
+}
+span{
+    font-weight: 500;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 20px;
+   width: 30px;
+   height: 20px;
+   float: right;
+   border: solid 1px black;
+    
+}
+
+}
+
+
+}
+.orders-container{
+    background-color: rgb(202, 199, 199);
+    height: 200px;
+    overflow-y: scroll;
+    text-align: center;
+    
+}
+
+
+}
